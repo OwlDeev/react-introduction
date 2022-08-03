@@ -3,7 +3,7 @@ import React, {} from 'react'
 
 const Card = (props) => {
   return (
-    <div>
+    <div className="card">
       <img className="imageGrid" src={props.src}></img>
       <h1 className="textAlignCenter">{props.title}</h1>
       <h3 className="textAlignCenter">{props.description}</h3>
